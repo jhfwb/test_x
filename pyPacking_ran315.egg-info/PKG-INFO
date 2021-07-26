@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyPacking-ran315
+Version: 1.0
+Summary: 暂无软件简介信息
+Home-page: UNKNOWN
+Author: 许焕燃
+Author-email: 527077832@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# test_xixi软件说明
+> 软件简介：
+## 1.如何开始运行test_xixi
+
+## 2.test_xixiの主要功能及介绍
+
+## 3.test_xixiの目录结构
+
+## 4.test_xixiの原理
+
+这是一个测试包
+用cmd进入到该包中，执行以下代码，会自动找到
+python -m pip install --upgrade setuptools wheel
+python setup.py sdist bdist_wheel
+
+# include pyPacking_ran315/resouce/*.ini pyPacking_ran315/resouce/*.py
+# recursive-include examples *.txt *.py
+# prune examples/sample?/build
+

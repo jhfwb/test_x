@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test_xixi/__init__.py
+test_xixi/main.py
+test_xixi.egg-info/PKG-INFO
+test_xixi.egg-info/SOURCES.txt
+test_xixi.egg-info/dependency_links.txt
+test_xixi.egg-info/requires.txt
+test_xixi.egg-info/top_level.txt
