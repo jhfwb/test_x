@@ -22,8 +22,5 @@ setuptools.setup(
          "Topic :: Utilities",
          "License :: OSI Approved :: GNU General Public License (GPL)",
     ],
-    install_requires=[# 依赖包
-        'pillow'
-    ],
     python_requires='>=3'
 )
