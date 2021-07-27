@@ -2,7 +2,7 @@
 # coding=utf-8
 import sys
 import setuptools
-sys.argv=['setup.py','sdist','bdist_wheel'] #将sys.argv的外部参数改成setup.py。相当于是运行python
+# sys.argv=['setup.py','sdist','bdist_wheel'] #将sys.argv的外部参数改成setup.py。相当于是运行python
 with open("README.md", 'r',encoding='UTF-8') as f:
     long_description=f.read()
 
@@ -14,7 +14,7 @@ setuptools.setup(
     description="暂无软件简介信息",
     long_description=long_description,#详细描述
     long_description_content_type="text/markdown",#详细描述的格式
-    # url="https://ssl.xxx.org/redmine/projects/RedisRun", #模块的github地址
+    url="https://github.com/jhfwb/test_x", #模块的github地址
     packages=setuptools.find_packages(),
     # py_modules=["Tool"],
     classifiers=[# 程序的所属分类列表
